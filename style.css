@@ -1,0 +1,92 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: #f2f2f2;
+  font-family: "Times New Roman", Times, serif;
+}
+
+li {
+  margin-bottom: 3px;
+  font-size: 18px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.main {
+  padding: 20px;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.pic {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  left: 10%;
+}
+
+.profile {
+  display: flex;
+}
+
+.pro {
+  margin-top: 40px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.info {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+}
+
+.certification {
+  margin-bottom: 20px;
+}
+
+.certification h2 {
+  margin-bottom: 5px;
+}
+
+.certification p {
+  margin-bottom: 10px;
+}
+
+.certification a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
