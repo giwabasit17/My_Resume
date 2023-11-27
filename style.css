@@ -39,25 +39,37 @@ a:hover {
 }
 
 .pic {
+  flex: 1 1 auto;
   width: 300px;
   height: 300px;
-  position: relative;
-  left: 10%;
+  margin-bottom: 10px;
 }
 
 .profile {
   display: flex;
+  flex-direction: row;
 }
 
 .pro {
-  margin-top: 40px;
+  flex: 1 1 auto;
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 hr {
   border: 1px solid #000;
+  margin: 0 0 10px 0;
 }
+
+/*  
+p[draggable] {
+  color:red
+}
+Any element with the attributes, there are a lot of
+attributes.
+
+* means to select all
+*/
 
 .info {
   font-size: 24px;
